@@ -1,52 +1,78 @@
-body{
-    background-color: rgb(8, 6, 18);
-    color:beige;
-}
 /*  Evaluations
 Respect des consignes
 La syntaxe est correcte
 L'indentation est correcte
 */
+
 /* Squelette du CSS fourni par le coach */
+
 body{
-  /* insère ton style ici */
-}
-header .container{
-  /* insère ton style ici */
+    background-color: #0f0e17;
+    color:#fffffe;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0; /* pour enlever les marges de 8px du body*/
+    /* insère ton style ici */
+
+    
 }
 
+/* HEADER */
+header .container{
+  /* insère ton style ici */
+    
+}
 header .container img{
+    max-width: 100px;
   /* insère ton style ici */
 }
 
 nav{
-  /* insère ton style ici */
+    max-width: 790px;
+    margin: 0 auto;
+    /* insère ton style ici */
+    border: 1px solid wheat;
 }
-
 nav ul {
   /* insère ton style ici */
 }
-
 nav li {
   /* insère ton style ici */
-}
+    display: inline-block;
+    width: calc(100% / 4) -1px;
+    padding: 0 10px ;
+    text-transform: uppercase;
+    
 
+    
+}
 nav li a {
   /* insère ton style ici */
+    text-decoration: none;
 }
 
+/* MAIN : Corps de la page */
 section{
-  /* insère ton style ici */
+    
+    background-color: #fffffe;
+    max-width: 790px;
+    margin: 0 auto; /* pour CENTRER un élément bloc */
+    /* insère ton style ici */
 }
 
 h2{
-  /* insère ton style ici */
+    color: #ff8906;
+    text-transform: uppercase;
+    /* insère ton style ici */
 }
-
 p{
   /* insère ton style ici */
 }
 
+/* FOOTER */
 footer{
-  /* insère ton style ici */
+    background-color: #e53170;
+    background-attachment: fixed;
+    /* insère ton style ici */
 }
