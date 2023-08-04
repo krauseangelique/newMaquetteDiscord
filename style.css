@@ -2,3 +2,51 @@ body{
     background-color: rgb(8, 6, 18);
     color:beige;
 }
+/*  Evaluations
+Respect des consignes
+La syntaxe est correcte
+L'indentation est correcte
+*/
+/* Squelette du CSS fourni par le coach */
+body{
+  /* insère ton style ici */
+}
+header .container{
+  /* insère ton style ici */
+}
+
+header .container img{
+  /* insère ton style ici */
+}
+
+nav{
+  /* insère ton style ici */
+}
+
+nav ul {
+  /* insère ton style ici */
+}
+
+nav li {
+  /* insère ton style ici */
+}
+
+nav li a {
+  /* insère ton style ici */
+}
+
+section{
+  /* insère ton style ici */
+}
+
+h2{
+  /* insère ton style ici */
+}
+
+p{
+  /* insère ton style ici */
+}
+
+footer{
+  /* insère ton style ici */
+}
