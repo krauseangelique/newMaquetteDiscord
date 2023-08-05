@@ -36,15 +36,19 @@ nav{
 }
 nav ul {
   /* insère ton style ici */
+  /* reset des marges */
+    margin: 0 auto;
+    padding: 0;
+    max-width: 50%;
+
 }
 nav li {
   /* insère ton style ici */
     display: inline-block;
-    width: calc(100% / 4) -1px;
-    padding: 0 10px ;
+    width: calc(100% / 4  );
     text-transform: uppercase;
-    
-
+    /* background-color: royalblue; Permet de voir les  4px entre les deux li et cela peut être corrigé en ajoutant des commentaires aux li en HTML*/
+    background-color:rgb(184, 240, 240);
     
 }
 nav li a {
@@ -73,6 +77,10 @@ p{
 /* FOOTER */
 footer{
     background-color: #e53170;
-    background-attachment: fixed;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-attachment: fixed; */
     /* insère ton style ici */
 }
