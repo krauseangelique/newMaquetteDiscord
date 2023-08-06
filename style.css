@@ -1,7 +1,9 @@
 /*  Evaluations
-Respect des consignes
-La syntaxe est correcte
-L'indentation est correcte
+    ------------
+
+- Respect des consignes
+- La syntaxe est correcte
+- L'indentation est correcte
 */
 
 /* Squelette du CSS fourni par le coach */
@@ -10,68 +12,68 @@ body{
     background-color: #0f0e17;
     color:#fffffe;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    box-sizing: border-box;
+    font-size: 14px;
+
+    box-sizing: border-box; 
     text-align: center;
     margin: 0; /* pour enlever les marges de 8px du body*/
-    /* insère ton style ici */
-
-    
+    /* insère ton style ici */    
 }
 
 /* HEADER */
-header .container{
-  /* insère ton style ici */
-    
-}
+/*header .container{
+  /* insère ton style ici   
+}*/
 header .container img{
     max-width: 100px;
   /* insère ton style ici */
 }
-
 nav{
     max-width: 790px;
     margin: 0 auto;
     /* insère ton style ici */
-    border: 1px solid wheat;
+    
 }
 nav ul {
   /* insère ton style ici */
   /* reset des marges */
     margin: 0 auto;
-    padding: 0;
-    max-width: 50%;
-
+    padding-top: 20px;
 }
 nav li {
   /* insère ton style ici */
     display: inline-block;
-    width: calc(100% / 4  );
+    padding: 0 17px;
     text-transform: uppercase;
-    /* background-color: royalblue; Permet de voir les  4px entre les deux li et cela peut être corrigé en ajoutant des commentaires aux li en HTML*/
-    background-color:rgb(184, 240, 240);
-    
+    /* background-color: royalblue; Permet de voir les 4px entre les deux li et cela peut être corrigé en ajoutant des commentaires aux li en HTML*/  
 }
 nav li a {
   /* insère ton style ici */
     text-decoration: none;
+    color:#fffffe;
+    font-weight: 600;
 }
 
 /* MAIN : Corps de la page */
 section{
-    
     background-color: #fffffe;
     max-width: 790px;
     margin: 0 auto; /* pour CENTRER un élément bloc */
     /* insère ton style ici */
+    border-radius: 5px;
 }
-
 h2{
     color: #ff8906;
     text-transform: uppercase;
     /* insère ton style ici */
+    padding-top: 20px;
+    padding-left: 20px;
 }
 p{
   /* insère ton style ici */
+  color: #0f0e17;
+  font-size: 0.98em;
+  padding: 0 10px 20px 10px;
 }
 
 /* FOOTER */
@@ -81,6 +83,8 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    /* background-attachment: fixed; */
     /* insère ton style ici */
+    text-transform: uppercase;
+    padding: 15px 0;
+    font-weight: 600;
 }
