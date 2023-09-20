@@ -9,7 +9,6 @@
 /* Squelette du CSS fourni par le coach */
 
 /* MOBILE */
-
 body{
     background-color: #0f0e17;
     color:#fffffe;
@@ -95,7 +94,8 @@ footer{
 }
 
 /* TABLETTE */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+
+  @media only screen and (min-width: 768px){
   nav{
     max-width: 790px;
     margin: 0 auto;
@@ -111,3 +111,5 @@ footer{
     border:3px solid #e53170; 
 }
 }
+
+/* 
